@@ -21,87 +21,38 @@
     line-height: 75px;
 }
 
-.gpt3__footer-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 1rem;
-    border: 1px solid #fff;
-    text-align: center;
-
-    margin-bottom: 10rem;
-    cursor: pointer;
-}
-
-.gpt3__footer-btn p {
-    font-size: 18px;
-    font-family: var(--font-family);
-    line-height: 21px;
-    color: #fff;
-    word-spacing: 2px;
-}
 
 .gpt3__footer-links {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    margin-top: 1rem;
     flex-direction: row;
-    flex-wrap: wrap;
-
-    width: 100%;
-    text-align: left;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer 
 }
+  
+.gpt3__footer-links_git:hover { 
+    box-shadow: 0 0 10px 0 #00ffff inset, 0 0 20px 2px #00ffff;
+    border: 3px solid #00ffff; }
 
-.gpt3__footer-links div {
-    width: 250px;
-    margin: 1rem;
+.gpt3__footer-links_Twi:hover { 
+    box-shadow: 0 0 10px 0 #00ffff inset, 0 0 20px 2px #00ffff;
+    border: 3px solid #00ffff; }
+
+.gpt3__footer-links_lin:hover { 
+    box-shadow: 0 0 10px 0 #00ffff inset, 0 0 20px 2px #00ffff;
+    border: 3px solid #00ffff; }
+
+.gpt3__footer-links_git{
+margin: 0 10px;
 }
-
-.gpt3__footer-links_logo {
-    display: flex;
-    flex-direction: column;
+.gpt3__footer-links_Twi{
+margin: 0 10px;
 }
-
-.gpt3__footer-links_logo img {
-    width: 118px;
-    height: 30px;
-
-    margin-bottom: 1rem;
+.gpt3__footer-links_lin{
+margin: 0 10px;
 }
-
-.gpt3__footer-links_logo p {
-    font-family: var(--font-family);
-    font-size: 12px;
-    line-height: 15px;
-    color: #fff;
-}
-
-.gpt3__footer-links_div {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.gpt3__footer-links_div h4 {
-    font-size: 14px;
-    line-height: 17px;
-    font-family: var(--font-family);
-    color: #fff;
-
-    margin-bottom: 0.9rem;
-}
-
-.gpt3__footer-links_div p {
-    font-size: 12px;
-    line-height: 15px;
-    font-family: var(--font-family);
-    color: #fff;
-
-    margin: 0.5rem 0;
-    cursor: pointer;
-}
-
 .gpt3__footer-copyright {
     margin-top: 2rem;
     text-align: center;
@@ -112,7 +63,7 @@
     font-size: 12px;
     font-family: var(--font-family);
     line-height: 15px;
-    color: #fff;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 850px) {
@@ -128,10 +79,6 @@
         line-height: 42px;
     }
 
-    .gpt3__footer-links div {
-        margin: 1rem 0;
-    }
-
     .gpt3__footer-btn p {
         font-size: 14px;
         line-height: 20px;
@@ -142,5 +89,105 @@
     .gpt3__footer-heading h1 {
         font-size: 27px;
         line-height: 38px;
+    }
+}
+
+
+.gpt3__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 70% -100%, #042c54 25%, rgba(4, 44, 84, 1) 75%, rgba(27, 120, 222, 1) 102%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gpt3__cta-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+    text-align: left;
+    color: #ffffff;
+}
+
+.gpt3__cta-btn {
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;}
+
+.gpt3__cta-btn button { background: rgba(27, 120, 222, 1); display: flex; font-family: var(--font-family); justify-content: center; width: 220px; height: 50px; outline: none; color: #ffffff; cursor: pointer; position: relative; z-index: 0; border-radius: 1rem; margin: 2rem 0 1rem; align-items: center; border-radius: 0.5rem; -webkit-border-radius: 0.5rem; -moz-border-radius: 0.5rem; -ms-border-radius: 0.5rem; -o-border-radius: 0.5rem;
+}
+
+
+.gpt3__cta-btn button:before { content: ''; background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #ffffff, #0000ff, #7a00ff, #ff00c8, #000000); position: absolute; top: -2px; left:-2px; background-size: 400%; z-index: -1; filter: blur(5px); width: calc(100% + 4px); height: calc(100% + 4px); animation: glowing 20s linear infinite; opacity: 0; transition: opacity .3s ease-in-out; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+}
+
+.gpt3__cta-btn button:active {
+color: 042c54;}
+.gpt3__cta-btn button:active:after {
+background: transparent;
+}
+
+.gpt3__cta-btn button:hover:before {
+opacity: 1;
+}
+
+.gpt3__cta-btn button:after { z-index: -1; content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(89.97deg, rgba(4, 44, 84, 1) -20%, rgb(6, 197, 255)  100.67%); left: 0; top: 0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+}
+
+@keyframes glowing {
+0% { background-position: 0 0; }
+50% { background-position: 400% 0; }
+100% { background-position: 0 0; }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__cta {
+        flex-direction: column;
+    }
+
+    .gpt3__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__cta {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .gpt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
     }
 }

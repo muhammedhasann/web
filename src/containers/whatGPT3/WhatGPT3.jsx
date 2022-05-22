@@ -5,16 +5,16 @@ import './whatGPT3.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+      <Feature title="About me" text=" I’m a self-taught Front End Developer and Mechanical  Engineering student. My curiosity about Technology and Robots led me to get into coding. Back in 2019, when I was trying to build a blog and publish a blog about Engineering, I could not create it, so I decided to learn how to make a blog, and from there, my story in coding started." />
     </div>
     <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      <h1 className="gradient__text">My Skills And Qualifications</h1>
+      <p>Explore My Work</p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Front-End" text="Html/ Css/ JavaScript/ jQuery / React/ Bootstrap/ Jest/ NPM/ Webpack/ UX" />
+      <Feature title="Back-End" text="Python/ Django/ Node.js/ MySQL/ Git" />
+      <Feature title="Certifications" text="IBM Full Stack Software Developer Professional " />
     </div>
   </div>
 );

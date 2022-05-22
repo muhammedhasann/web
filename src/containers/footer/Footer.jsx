@@ -1,45 +1,32 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
 import './footer.css';
+import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs';
 
 const Footer = () => (
-  <div className="gpt3__footer section__padding">
+  <div className="gpt3__footer section__padding" id="footer">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      <h1 className="gradient__text">Get In Touch</h1>
     </div>
-
-    <div className="gpt3__footer-btn">
-      <p>Request Early Access</p>
+    <div className="gpt3__cta">
+      <div className="gpt3__cta-content">
+        <h3> Feel free to contact me You can reach me via my social accounts or my Gmail.</h3>
+      </div>
+      <div className="gpt3__cta-btn">
+        <button type="button"><a href="https://www.linkedin.com/in/muhammedhaan">Say Hello</a></button>
+      </div>
     </div>
 
     <div className="gpt3__footer-links">
-      <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+      <div className="gpt3__footer-links">
+        <p className="gpt3__footer-links_git"><a href="https://github.com/muhammedhasann"><BsGithub /></a></p>
+        <p className="gpt3__footer-links_Twi"><a href="https://twitter.com/Muhammed__Hasan"><BsTwitter /></a></p>
+        <p className="gpt3__footer-links_lin"><a href="https://www.linkedin.com/in/muhammedhaan"><BsLinkedin /></a></p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>© 2022 Muhammed Hasan.</p>
     </div>
   </div>
 );
