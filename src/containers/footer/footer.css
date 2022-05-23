@@ -108,7 +108,7 @@ margin: 0 10px;
     background: var(--color-footer);
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 70% -100%, #042c54 25%, rgba(4, 44, 84, 1) 75%, rgba(27, 120, 222, 1) 102%);
+    background:-moz-radial-gradient(circle at 30% -100%, rgba(27, 120, 222, 1) 25%, rgba(4, 44, 84, 1) 25%, rgba(27, 120, 222, 1) 152%);
 
     /* safari 5.1+,chrome 10+ */
     background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
@@ -171,14 +171,14 @@ opacity: 1;
     }
 
     .gpt3__cta-btn {
-        margin: 2rem 0 0;
+        margin: 1rem 0 0 0;
     }
 }
 
 @media screen and (max-width: 550px) {
     .gpt3__cta {
         flex-direction: column;
-        margin: 4rem 2rem;
+        margin: 0rem 2rem 0rem 2rem;
     }
 
     .gpt3__cta-content h3 {

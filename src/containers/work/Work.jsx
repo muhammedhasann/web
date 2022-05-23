@@ -15,7 +15,7 @@ const Work = () => (
 
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={work1} web1={<a href="https://muhammadhasan.w3spaces.com/"><CgDesktop /></a>} git1={<a href="https://github.com/muhammedhasann/project_modern_ui_ux_gpt3.git"><BsGithub /></a>} text1="My Portfolio Website" text2="Having a strong Portfolio will prove and improve your skills. I have built his site by using react.js and some of Bem " />
+        <Article imgUrl={work1} web1={<a href="https://muhammedhasann.github.io/web/"><CgDesktop /></a>} git1={<a href="https://github.com/muhammedhasann/web"><BsGithub /></a>} text1="My Portfolio Website" text2="Having a strong Portfolio will prove and improve your skills. I have built his site by using react.js and some of Bem " />
         <Article imgUrl={work2} web2={<a href="https://burgapp.mybluemix.net/djangoapp/"><CgDesktop /></a>} git2={<a href="https://github.com/muhammedhasann/agfzb-CloudAppDevelopment_Capstone-1.git"><BsGithub /></a>} text1="Full Stack Application" text2="I built a full Stack application using python (Django) and some of the front-end languages." />
         <Article imgUrl={work3} web3={<a href="https://github.com/muhammedhasann"><CgDesktop /></a>} git3={<a href="https://github.com/muhammedhasann/vftvk-Simple-Interest-Calculator.git"><BsGithub /></a>} text1="Simple-Interest-Calculator" text2="I built interest calculator using JavaScript, Html and Css" />
       </div>
